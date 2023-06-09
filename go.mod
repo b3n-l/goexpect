@@ -1,11 +1,10 @@
-module github.com/tailscale/goexpect
+module github.com/b3n-l/goexpect
 
-go 1.17
+go 1.20
 
 require (
-	github.com/google/goterm v0.0.0-20190703233501-fc88cf888a3f
-	github.com/ziutek/telnet v0.0.0-20180329124119-c3b780dc415b
-	golang.org/x/crypto v0.0.0-20200728195943-123391ffb6de
+	github.com/b3n-l/goterm v0.0.0-20230609152435-84acdf2bcc1b
+	golang.org/x/crypto v0.9.0
 )
 
-require golang.org/x/sys v0.0.0-20190412213103-97732733099d // indirect
+require golang.org/x/sys v0.8.0 // indirect
